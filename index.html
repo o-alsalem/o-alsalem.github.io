@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My GitHub Page</title>
+    <title>My App - Google Play</title>
     <style>
         /* Basic reset and styles */
         * {
@@ -30,10 +30,10 @@
             font-size: 1.2rem;
             color: #666;
         }
-        /* Simple button styling */
+        /* Button styling */
         a.button {
             display: inline-block;
-            margin: 20px 0;
+            margin: 20px 10px;
             padding: 10px 20px;
             font-size: 1rem;
             background-color: #0073e6;
@@ -44,6 +44,32 @@
         }
         a.button:hover {
             background-color: #005bb5;
+        }
+        /* Container for the app details */
+        .app-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .app-container img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        /* Privacy policy link styling */
+        .privacy-policy {
+            margin-top: 50px;
+            font-size: 1rem;
+        }
+        .privacy-policy a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .privacy-policy a:hover {
+            text-decoration: underline;
         }
         /* Footer */
         footer {
@@ -56,16 +82,29 @@
 <body>
 
     <header>
-        <h1>Welcome to My GitHub Page</h1>
-        <p>This is a simple webpage hosted on GitHub Pages. You can explore my projects or contact me below.</p>
+        <h1>Welcome to My App</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt, sapien nec congue fringilla, ligula sapien tincidunt justo, nec tincidunt est ex a felis.</p>
     </header>
 
-    <a href="https://github.com/username" class="button">View My GitHub</a>
+    <!-- App Details Section -->
+    <div class="app-container">
+        <!-- Replace with an app logo or screenshot -->
+        <img src="https://via.placeholder.com/150" alt="App Logo or Screenshot">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, mauris eget viverra scelerisque, arcu velit fermentum quam, ut viverra nulla magna nec nulla.</p>
 
+        <!-- Button to Google Play Store -->
+        <a href="https://play.google.com/store/apps/details?id=your.app.id" class="button">Download on Google Play</a>
+    </div>
+
+    <!-- Privacy Policy Section -->
+    <div class="privacy-policy">
+        <p><a href="https://yourwebsite.com/privacy-policy">View our Privacy Policy</a></p>
+    </div>
+
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Omar Al-Salem | Built with <a href="https://pages.github.com/" style="color:#0073e6; text-decoration:none;">GitHub Pages</a></p>
     </footer>
 
 </body>
 </html>
-
